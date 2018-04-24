@@ -1,7 +1,13 @@
 {
   "name": "@yutahaga/generate-style-index",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "bin": {
+    "generate-style-index": "./bin/generate-style-index.js"
+  },
   "main": "lib/generate-style-index.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
   "license": "MIT",
   "scripts": {
     "test": "node bin/generate-style-index.js"

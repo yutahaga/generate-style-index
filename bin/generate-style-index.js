@@ -10,7 +10,7 @@ const argv = yargs
   .alias('s', 'syntax')
   .alias('v', 'verbose').argv;
 
-const root = finder().next().filename;
+const root = path.dirname(finder().next().filename);
 const src = path.resolve(root, argv.path || './src/styles');
 const syntax = argv.syntax || 'css';
 const eventHandlers = argv.verbose
