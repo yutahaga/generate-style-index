@@ -1,0 +1,17 @@
+{
+  "name": "@yutahaga/generate-style-index",
+  "version": "0.0.0",
+  "main": "lib/generate-style-index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node bin/generate-style-index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "find-package-json": "^1.1.0",
+    "fs-extra": "^5.0.0",
+    "glob": "^7.1.2",
+    "glob-promise": "^3.4.0",
+    "yargs": "^11.0.0"
+  }
+}
