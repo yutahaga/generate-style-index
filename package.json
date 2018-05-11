@@ -11,6 +11,10 @@
     "node": ">=7.6.0"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yutahaga/generate-style-index.git"
+  },
   "scripts": {
     "test": "node bin/generate-style-index.js"
   },
