@@ -2,7 +2,7 @@
   "name": "@yutahaga/generate-style-index",
   "description":
     "指定したディレクトリのサブディレクトリ以下の CSS ファイルを全て `@import` する索引ファイルを生成します。",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "generate-style-index": "./bin/generate-style-index.js"
   },
